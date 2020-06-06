@@ -16,7 +16,7 @@
 
 html,
 body {
-  font-family: "Roboto Slab", serif;
+  font-family: "Ubuntu", sans-serif;
   background: #000;
 }
 
@@ -274,7 +274,7 @@ figcaption {
   margin-bottom: 3rem;
   height: 300px;
   width: 300px;
-  border: 5px solid #fff;
+  border: 2px solid #fff;
 }
 
 .text {
@@ -312,4 +312,12 @@ div.scrollmenu a {
 
 div.scrollmenu a:hover {
   background-color: #777;
+}
+
+.piccap {
+  padding: -1rem;
+  margin: -1rem;
+  background: inherit;
+  font-size: 0.75rem;
+  font-style: normal;
 }
